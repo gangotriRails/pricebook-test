@@ -1,0 +1,14 @@
+default: &default
+ adapter: postgresql
+ encoding: unicode
+ pool: 5
+ timeout: 20000000
+ username: root
+ password: secret
+development:
+ <<: *default
+ # database: gilauto
+ database: priceBook_g
+production:
+ <<: *default
+ database: pricebook_production

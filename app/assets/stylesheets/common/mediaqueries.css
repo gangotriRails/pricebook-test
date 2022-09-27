@@ -1,0 +1,171 @@
+/* mediaqueries */
+
+@media all and (max-width: 1200px) {
+	.bottom-margin {
+		margin-bottom: 15px;
+	}
+	
+	.hide-small {
+		display: none;
+	}
+}
+
+@media all and (max-width: 1150px) {
+	.container {
+		padding: 0 15px;
+	}
+	
+	.navbar-header {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	#main-navigation li {
+		margin: 0 7px 0 0;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	#main-navigation {
+	  clear: left;
+	  float: none;
+	}
+	
+	#main-navigation li {
+		padding: 0 0 18px;
+	}
+	
+	.sub-menu {
+		top: 62px;
+	}
+}
+
+@media all and (max-width: 700px) {
+	h2 {
+		font-size: 21px;
+	}
+	
+	#main-navigation {
+		padding:0;
+		clear: both;
+	}
+	
+	#main-navigation li {
+		margin-right: 0;
+		width: 100%;
+		padding:0;
+	}
+	
+	#main-navigation li a {
+		border-radius:0;
+	}
+	
+	#main-navigation li.active a, #main-navigation li:hover a {
+		margin:0;
+		border: 1px solid transparent;
+	}
+	
+	#main-navigation li .sub-menu a {
+		border-bottom: 1px solid #D8D8D8;
+		margin: 1px;
+	}
+	
+	.sub-menu {
+		top: 42px;
+		left: 50px;
+	}
+	
+	.user-info .sub-menu {
+		top: 32px;
+	}
+	
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+		border:none;
+	}
+	
+	.navbar-nav {
+		margin:0;
+	}
+	
+	.navbar-brand {
+		width: 200px;
+	}
+	
+	.navbar-brand img {
+		width: 100%;
+	}
+	
+	.navbar-header {
+		padding-right: 0;
+	}
+	
+	.breadcrumb-wrapper {
+		padding: 10px 0;
+	}
+	
+	footer p{
+		text-align: center;
+	}
+	
+	.editable-select {
+		width: 95%;
+	}
+	
+	.editable-input {
+		width: 88%;
+	}
+}
+
+@media all and (max-width: 599px) {
+	.k-tabstrip .k-content.panel-block {
+		padding: 0;
+	}
+	
+	.editable-select {
+		width: 94%;
+	}
+	
+	.editable-input {
+		width: 85%;
+	}
+	
+	#edit-popup, #delete-popup {
+		width: auto;
+	}
+}
+
+@media all and (max-width: 479px) {
+	.k-tabstrip .k-tabstrip-items {
+		padding: 3px 10px 0;
+	}
+	
+	.k-tabstrip-items .k-link, .k-panelbar .k-tabstrip-items .k-link {
+		font-size: 13px;
+		padding: 0.5em 0.3em;
+	}
+	
+	.k-tabstrip-items .k-item, .k-panelbar .k-tabstrip-items .k-item {
+		margin-right: 5px;
+	}
+	
+	.editable-select {
+		width: 92%;
+	}
+	
+	.editable-input {
+		width: 82%;
+	}
+}
+
+@media all and (max-width: 399px) {
+	.editable-select {
+		width: 90%;
+	}
+	.editable-input {
+		width: 79%;
+	}
+	
+	.k-pager-input, .k-pager-sizes {
+		padding: 0 4px;
+	}
+}
