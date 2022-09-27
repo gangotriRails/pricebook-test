@@ -4,7 +4,7 @@
 <div class="container table-container">
 <div class="row"> 
 <div class="col-md-8" >
-<%# <%= link_to 'New Comment', new_comment_path , data: {toggle: "modal", target: "#newModal"}  %> 
+<p><%= current_user.role_id %></p>
 <%= link_to 'New Comment', new_comment_path %>
     <%= link_to 'Add user', new_comment_path,  {:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window', class: 'btn btn-primary btn-lg'}  %>
 <div id="modal-window" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

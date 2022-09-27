@@ -4,7 +4,11 @@ class CommentsController < ApplicationController
   respond_to :html
 
   def index
+    if current_user.role_id == 1
+      @comments = Comment.all
+   else
     @comments = Comment.where(user_id: current_user.id)
+   end
     respond_with(@comments)
   end
 
